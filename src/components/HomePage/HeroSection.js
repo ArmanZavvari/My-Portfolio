@@ -26,7 +26,7 @@ const HeroSection = () => {
 
             <div className="w-3/4  rounded-lg shadow-[inset_0_0_50px_50px_#fdf2e9] animate-imgMoveInRight sm:w-3/5 sm:ml-6 md:w-1/2">
               <div className=" rounded-lg">
-                <img src={ArmanImg} alt="Mfon" className="w-full" />
+                <img src={ArmanImg} alt="Arman" className="w-full" />
               </div>
             </div>
           </div>
