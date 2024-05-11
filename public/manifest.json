@@ -1,17 +1,40 @@
 {
+  "short_name": "AZ Portfolio",
+  "name": "Arman Zavvari Portfolio",
+  "start_url": "/index.html",
+  "theme_color": "orange",
+  "background_color": "#fdf2e9",
+  "display": "standalone",
+  "lang ": "en ",
+  "dir": "ltr",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 48x48 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "icons-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
     },
     {
-      "src": "favicon-192.png",
+      "src": "icons-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icons-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "favicon-512.png",
+      "src": "icons-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icons-256.png",
       "sizes": "512x512",
       "type": "image/png"
     }
