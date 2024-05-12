@@ -58,12 +58,16 @@ const About = () => {
             <Skills text="REST API" />
             <Skills text="Webpack" />
             <Skills text="SASS" />
+            <Skills text="Tailwind" />
+            <Skills text="Bootstarp" />
+            <Skills text="Responsive CSS" />
+            <Skills text="PWA" />
           </div>
-          <div className="grid grid-cols-1 gap-2.5 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
+          {/* <div className="grid grid-cols-1 gap-2.5 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
             <Skills text="Tailwind CSS" />
             <Skills text="Bootstarp" />
             <Skills text="Responsive Design" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
