@@ -1,4 +1,5 @@
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { FaTelegram } from 'react-icons/fa';
 
 const currentYear = new Date().getFullYear();
 
@@ -31,6 +32,14 @@ const Footer = () => {
               className="inline-block transition-all hover:scale-110"
             >
               <BsGithub size={24} />
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://t.me/Arman_Z77"
+              className="inline-block transition-all hover:scale-110"
+            >
+              <FaTelegram size={24} />
             </a>
           </div>
         </div>

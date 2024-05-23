@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { FaTelegram } from 'react-icons/fa';
 import Navigation from './Navigation/Navigation';
 import Button from '../UI/Button';
 import ArmanImg from '../../assets/Arman.webp';
@@ -49,6 +50,14 @@ const HeroSection = () => {
           className="p-3 inline-block rounded outline-orange-700 transition-colors hover:bg-orange-100"
         >
           <BsGithub size={28} />
+        </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://t.me/Arman_Z77"
+          className="p-3 inline-block rounded outline-orange-700 transition-colors hover:bg-orange-100"
+        >
+          <FaTelegram size={28} />
         </a>
       </div>
     </Fragment>
