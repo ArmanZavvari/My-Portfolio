@@ -4,8 +4,11 @@ import { FaTelegram } from 'react-icons/fa';
 import Navigation from './Navigation/Navigation';
 import Button from '../UI/Button';
 import ArmanImg from '../../assets/Arman.webp';
+import { useTranslation } from 'react-i18next';
 
 const HeroSection = () => {
+  const { t } = useTranslation();
+
   return (
     <Fragment>
       <header className="relative px-4 pb-16 bg-[#fdf2e9]">
@@ -14,14 +17,13 @@ const HeroSection = () => {
           <div className="flex flex-col-reverse items-center justify-between space-y-reverse space-y-10 md:flex-row md:space-x-4 md:space-y-0 lg:ml-8 xl:space-x-14 xl:ml-20">
             <div className="w-11/12 text-center bg-orange-200 shadow-[inset_0_0_50px_50px_#fdf2e9]">
               <h1 className="mb-3 text-3xl text-gray-800 font-bold  transition-all animate-moveInLeft sm:text-4xl md:text-3xl lg:text-4xl xl:text-5xl">
-                Hi, I'm Arman Zavvari
+                {t('name')}
               </h1>
-              <p className="mb-8 max-w-xl flex text-lg text-center mx-auto text-gray-800 transition-all animate-moveInRight sm:text-xl md:text-lg lg:text-xl lg:mb-10">
-                I love diving into new challenges and learning from
-                collaborations.
+              <p className="mb-8 max-w-xl text-lg text-center mx-auto text-gray-800 transition-all animate-moveInRight sm:text-xl md:text-lg lg:text-xl lg:mb-10 ">
+                {t('aboutMe')}
               </p>
               <div className="animate-btnMoveInBottom">
-                <Button link="#projects" text="Projects" />
+                <Button link="#projects" text={t('projects')} />
               </div>
             </div>
 
