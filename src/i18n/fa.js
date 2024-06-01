@@ -15,5 +15,14 @@ const fa = {
   home: 'خانه',
   about: 'درباره من',
   Professional: 'تجربیات',
+  experience: 'سابقه کار',
+  experienceDescription:
+    'در این بخش شما برخی از سابقه کار حرفه ای من را همراه با جزئیات و مهارت هایی که کسب کردم مشاهده می فرمایید',
+  quera: 'کوئرا',
+  firstWorkDate: 'دی  1402 - اردیبهشت 1403',
+  firstJobTitle: 'کارآموز فرانت اند',
+  iranLocation: 'تهران , ایران',
+  projectDescription:
+    'در اینجا شما پروژه های من را مشاهده خواهید کرد که من بر اساس مهارت های خود توسعه دادم',
 };
 export default fa;

@@ -1,14 +1,15 @@
 import QueraTaskImg from '../../../assets/QueraTask.webp';
 import BokkingHotelImg from '../../../assets/Booking-Hotel.webp';
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+  const { t } = useTranslation();
   return (
     <section id="projects" className="pt-16 pb-16 bg-[#fdf2e9]">
       <div className="px-2 mb-12 text-center md:mb-16">
-        <h2>Projects</h2>
+        <h2>{t('projects')}</h2>
         <p className="max-w-2xl px-4 mx-auto text-lg text-gray-800 sm:px-10 md:text-xl md:max-w-3xl md:px-0">
-          Here you will find my projects that I created from scratch based on my
-          current skillset.
+          {t('projectDescription')}
         </p>
       </div>
       <div className="container mx-auto max-w-7xl grid grid-cols-1 gap-y-14 px-4 md:gap-y-20">

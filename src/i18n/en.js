@@ -1,3 +1,5 @@
+import { Experimental_CssVarsProvider } from '@mui/material';
+
 const en = {
   name: "Hi, I'm Arman Zavvari",
   aboutMe:
@@ -12,5 +14,18 @@ const en = {
   knowMeSecondPart:
     'I enjoy sharing and interacting with people in the Web Dev world. I believe that this helps me to grow and learn in this field. You can connect with me on LinkedIn where I share my experiences and thoughts on various topics related to Web Development.',
   mySkills: 'my Skills',
+  contact: 'contact',
+  home: 'home',
+  about: 'about',
+  Professional: 'Professional',
+  experience: 'PROFESSIONAL EXPERIENCE',
+  experienceDescription:
+    'Here you will find some professional work I engaged myself in order to build my skills and increase my experience level.',
+  quera: 'Quera',
+  firstWorkDate: 'Dec 2023 - Apr 2024',
+  firstJobTitle: 'Frontend Developer Internship',
+  iranLocation: 'Tehran, Iran',
+  projectDescription:
+    'Here you will find my projects that I created from scratch based on my current skillset.',
 };
 export default en;

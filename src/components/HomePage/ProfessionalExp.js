@@ -1,13 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import { BsFillCheckCircleFill } from 'react-icons/bs';
 
 const ProfessionalExp = () => {
+  const { t } = useTranslation();
   return (
     <section id="professional" className="pt-16 pb-16 bg-[#fdf2e9]">
       <div className="px-2 mb-12 text-center lg:mb-16">
-        <h2>Professional Experience</h2>
+        <h2>{t('experience')}</h2>
         <p className="max-w-2xl px-4 mx-auto text-lg text-gray-800 sm:px-10 md:text-xl md:max-w-3xl md:px-0">
-          Here you will find some professional work I engaged myself in order to
-          build my skills and increase my experience level.
+          {t('experienceDescription')}
         </p>
       </div>
 
@@ -15,11 +16,11 @@ const ProfessionalExp = () => {
         <div className="flex flex-col p-4 bg-white rounded-2xl shadow-md transform transition-all duration-300 hover:scale-[1.01] hover:shadow-lg xs:p-6 xs:rounded-3xl">
           <div className="flex flex-col mb-4 font-semibold">
             <div className="flex flex-col justify-between xs:flex-row">
-              <span className="text-xl">Quera</span>
-              <span className="font-normal">Dec 2023 - Apr 2024</span>
+              <span className="text-xl">{t('quera')}</span>
+              <span className="font-normal">{t('firstWorkDate')}</span>
             </div>
-            <span className="text-lg">Frontend Developer Internship</span>
-            <span>Tehran, Iran</span>
+            <span className="text-lg">{t('firstJobTitle')}</span>
+            <span>{t('iranLocation')}</span>
           </div>
           <ul className="flex flex-col space-y-2 mb-4">
             <li className="flex space-x-2">

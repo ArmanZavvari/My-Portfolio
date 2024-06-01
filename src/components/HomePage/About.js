@@ -5,6 +5,8 @@ import i18n from '../../i18n';
 
 const About = () => {
   const { t } = useTranslation();
+  let isPersian = i18n.language === 'fa';
+  console.log(isPersian);
 
   return (
     <section id="about" className="pt-16 pb-16 lg:pt-20 ">
@@ -15,10 +17,10 @@ const About = () => {
         </p>
       </div>
 
-      <div className="container mx-auto max-w-7xl flex flex-col space-y-12 px-4 sm:px-10 lg:flex-row lg:space-y-0 lg:space-x-16">
+      <div className="container mx-auto max-w-7xl flex flex-col space-y-12 px-4 sm:px-10 lg:flex-row lg:space-y-0 lg:space-x-16 ">
         <div className="w-full">
           <h3 className="mb-6">{t('getToKnowMe')}</h3>
-          <div className="flex flex-col items-center space-y-4 mb-8 text-lg text-gray-800 lg:mb-10">
+          <div className="flex flex-col items-center space-y-4 mb-8 text-lg text-gray-800 lg:mb-10 ">
             <p>{t('knowMeFirstPart')}</p>
             <p>
               {t('knowMeSecondPart')}
